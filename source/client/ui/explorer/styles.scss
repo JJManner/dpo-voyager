@@ -322,7 +322,7 @@ $pad: $canvas-border-width + $main-menu-button-size + 8px;
     }
     p {
       @include common.font-ui-normal;
-      font-size: 0.88em;
+      font-size: 1.25em;
       line-height: 1.35;
       color: common.$color-text;
       margin: 0.5em 0;
@@ -598,7 +598,7 @@ $pad: $canvas-border-width + $main-menu-button-size + 8px;
 
 .sv-chrome-view {
   @include common.font-ui-normal;
-  font-size: 0.85em;
+  font-size: 1.25em;
   line-height: 1.35;
   color: common.$color-text;
   @include common.fullsize;
@@ -1028,6 +1028,7 @@ $tour-entry-indent: 12px;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 50px 50px 0px 50px;
   }
 
   .sv-help-short {
@@ -1043,7 +1044,7 @@ $tour-entry-indent: 12px;
   }
 
   .sv-help-text {
-    padding: 5px 5px 0px 5px;
+    padding: 10px 5px 20px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1056,9 +1057,11 @@ $tour-entry-indent: 12px;
   }
 
   .ff-icon {
-    height: 2rem;
+    height: 3rem;
+    fill: #e5e4e4;
+    padding: 0px 15px 0px 15px;
   }
-
+  
   .sv-commands {
     flex: 0 0 auto;
     display: flex;
