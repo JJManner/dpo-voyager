@@ -76,7 +76,7 @@
         "simple-dropzone": "^0.8.3",
         "stream-browserify": "^3.0.0",
         "three": "^0.169.0",
-        "tinymce": "^6.3.1",
+        "tinymce": "^8.1.2",
         "toposort": "^2.0.2",
         "webdav": "^5.8.0",
         "webdav-server": "^2.6.2",
