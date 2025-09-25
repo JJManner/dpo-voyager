@@ -3,6 +3,7 @@
     "version": "0.55.0",
     "description": "Smithsonian DPO Voyager - 3D Explorer and Tool Suite",
     "scripts": {
+        "start-all": "npm run build-dev && npm run up",
         "start": "npm run server",
         "server": "nodemon services/server/bin/index.js",
         "watch": "concurrently \"cd source/client && webpack --watch --env=app=story\" \"tsc -p source/server -w\" \"nodemon services/server/bin/index.js\"",
